@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+main() {
+  go test ./...
+}
+
+main "$@"
